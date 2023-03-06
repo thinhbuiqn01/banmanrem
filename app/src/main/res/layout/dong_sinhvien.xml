@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/hotenCustom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Họ tên: "
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:id="@+id/namsinhCustom"
+        android:layout_marginTop="10dp"
+        android:text="Năm sinh: 1999"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:textColor="@color/purple_200"
+        android:layout_below="@+id/hotenCustom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:text="Huế"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:textColor="@color/purple_700"
+        android:layout_below="@id/hotenCustom"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentRight="true"
+        android:id="@+id/diachiCustom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:id="@+id/editSV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="12dp"
+        android:src="@drawable/ic_baseline_edit_24" />
+
+    <ImageView
+        android:id="@+id/deleteSV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_toLeftOf="@id/editSV"
+
+        android:src="@drawable/ic_baseline_delete_24" />
+</RelativeLayout>

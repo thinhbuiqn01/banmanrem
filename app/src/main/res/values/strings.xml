@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">CuoiKy_ThucHanh</string>
+    <string name="xemtaotaoText"><u>Xem trang Đào Tạo</u></string>
+
+
+    <string name="trangchu_navigationview">Trang Chủ</string>
+    <string name="ds_sv_navigationview">Danh sách sinh viên</string>
+    <string name="diemcanhan">Điểm cá nhân</string>
+
+    <string name="ds_diem_navigationview">Danh sách điểm</string>
+    <string name="close_navigation">Close</string>
+    <string name="open_navigation">Open</string>
+    <string name="tai_khoan">Tài khoản</string>
+
+    <string name="thongtin_admin">Thông tin Admin</string>
+</resources>
